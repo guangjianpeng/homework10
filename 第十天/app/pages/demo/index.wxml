@@ -1,0 +1,50 @@
+
+
+<!--数据绑定-->
+<text>{{msg}}</text>
+
+<!-- 数组遍历
+
+wx:for="{{arr}}"
+wx:key="{{index}}"
+wx:for-index="j"
+wx:for-item="sub"
+
+ {{index}} - {{item}}
+ -->
+
+<view wx:for="{{arr}}" wx:key="{{j}}"  wx:for-index="j" wx:for-item="sub" data-index="{{j}}"  bindtap='selectArr' >
+    {{j}} - {{sub}}
+</view>
+
+<!-- 条件渲染 -->
+
+<view wx:if="{{score>90}}">优秀</view>
+<view wx:elif="{{score>70}}">良好</view>
+<view wx:elif="{{score>=60}}">及格</view>
+<view wx:else>不及格</view>
+
+<!--  样式的绑定--数据绑定 -->
+<!-- 
+  1. style行内样式
+  2. class
+-->
+
+<!-- 
+
+事件绑定：
+bind:tap="回调函数的名称""
+data-xxxx="123"
+
+
+ -->
+<view class='box {{className}}' style="background-color:{{bgc}}"  data-aaa="1"  bind:tap="tapHandler" ></view>
+
+<!-- 引入 -->
+<import src="/templates/book.wxml" />
+
+<template is="book" data="{{...book1}}" />
+
+
+<import src="/templates/footer.wxml" />
+<template is="footer"  />

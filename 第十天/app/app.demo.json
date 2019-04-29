@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/user/index",
+    "pages/course/index",
+    "pages/learn/index",
+    "pages/scan/index"
+  ],
+  "window": {
+    "backgroundColor": "blue",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f00",
+    "navigationBarTitleText": "非凡学院网校",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true,
+    "pageOrientation": "portrait"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#878890",
+    "selectedColor": "#f23030",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "iconPath": "images/icon/home.png",
+        "selectedIconPath": "images/icon/home_active.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "iconPath": "images/icon/course.png",
+        "selectedIconPath": "images/icon/course_active.png",
+        "pagePath": "pages/course/index",
+        "text": "课程"
+      },
+      {
+        "iconPath": "images/icon/qr.png",
+        "selectedIconPath": "images/icon/qr_active.png",
+        "pagePath": "pages/scan/index",
+        "text": "打卡"
+      },
+      {
+        "iconPath": "images/icon/learn.png",
+        "selectedIconPath": "images/icon/learn_active.png",
+        "pagePath": "pages/learn/index",
+        "text": "学习中心"
+      },
+      {
+        "iconPath": "images/icon/user.png",
+        "selectedIconPath": "images/icon/user_active.png",
+        "pagePath": "pages/user/index",
+        "text": "我的"
+      }
+    ]
+  }
+}

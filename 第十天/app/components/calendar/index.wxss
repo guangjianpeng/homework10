@@ -1,0 +1,63 @@
+.calendar {
+  padding: 30rpx;
+  text-align: center;
+}
+
+.calendar .content {
+  background-color: #fff;
+}
+
+.flex {
+  display: -webkit-box;
+  display: flex;
+}
+
+.flex-item {
+  flex: 1;
+}
+
+.year-month-day, .week {
+  line-height: 80rpx;
+  color: #fff;
+  font-size: 40rpx;
+  background-color: #0086ff;
+}
+
+.prev-month, .next-month {
+  font-size: 50rpx;
+  padding: 0 20rpx;
+}
+
+.calendar .day {
+  min-height: 100rpx;
+  line-height: 100rpx;
+  font-weight: 500;
+  font-size: 35rpx;
+  position: relative;
+  color: #ccc;
+}
+
+.calendar .current{
+   color: #000;
+}
+
+.calendar .selected {
+  border-radius: 50%;
+  background-color: #0086ff;
+  color: #fff;
+}
+
+.calendar .today {
+  color: #0086ff;
+}
+
+.calendar .dot{
+  display: block;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+     background-color: #0086ff;
+     position: absolute;
+     top: 20rpx;
+     right: 20rpx;
+}

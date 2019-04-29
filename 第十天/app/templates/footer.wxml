@@ -1,0 +1,8 @@
+<!-- 模板 -->
+<template name="footer">
+  <view class="footer">
+    <view> 联系电话： 400-616-2336 </view>
+    <view> Copyright@ .上海非凡进修学院 </view>
+    <view> 版权所有沪ICP备12039090号-3 </view>
+  </view>
+</template>

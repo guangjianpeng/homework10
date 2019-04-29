@@ -1,0 +1,32 @@
+<view class="calendar">
+  <view class='content'>
+    <view class="flex  year-month-day">
+      <view class='prev-month' bindtap='prevMonth' >◀</view>
+      <view class='flex-item'>{{year}} 年 {{month<9?'0'+(month+1):month+1 }} 月</view>
+      <view class='next-month' bindtap='nextMonth'>▶</view>
+
+    </view>
+
+    <view class='flex week'>
+
+      <view class='flex-item'>日</view>
+      <view class='flex-item'>一</view>
+      <view class='flex-item'>二</view>
+      <view class='flex-item'>三</view>
+      <view class='flex-item'>四</view>
+      <view class='flex-item'>五</view>
+      <view class='flex-item'>六</view>
+
+    </view>
+
+    <!-- 所有的日期列表 -->
+    <view class="flex day-list" wx:for="{{6}}" wx:for-index="i" wx:key="{{i}}">
+
+      <view class="flex-item day {{days[i*7+j].current?'current':''}} " wx:for="{{7}}" wx:for-index="j" wx:key="{{j}}">
+          {{ days[i*7+j].day }}
+          <text class='dot' wx:if="{{false}}" ></text>
+      </view>
+
+    </view>
+  </view>
+</view>

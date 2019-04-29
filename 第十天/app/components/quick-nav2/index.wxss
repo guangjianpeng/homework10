@@ -1,0 +1,43 @@
+/* app/components/quick-nav2/index.wxss */
+.quick-nav{
+  position: absolute;
+  display: block;
+  margin-top: 50rpx;
+}
+.quick-nav2 ul li{
+  float: left;
+}
+.quick-nav2 ul li image{
+ width: 350rpx;
+  height: 200rpx;
+  margin-left: 18rpx;
+}
+.sp1{
+  font-size: 32rpx;
+  display: block;
+   margin-left: 18rpx;
+  
+}
+.sp2{
+  color: #B5B5B5;
+  float: left;
+  font-size: 25rpx;
+  line-height: 50rpx;
+   margin-left: 18rpx;
+}
+.sp3{
+  float: right;
+  color:red;
+  font-size: 25rpx;
+  line-height: 50rpx;
+  
+}
+.clear {
+
+overflow: auto;
+
+/* overflow: hidden;同理 */
+
+zoom: 1;
+
+}

@@ -1,0 +1,12 @@
+page {
+  background-color: #f6f6f6;
+}
+
+.footer {
+  color: #999;
+  text-align: center;
+  line-height: 1.5em;
+  font-size: 24rpx;
+  padding: 40rpx 0 10rpx;
+  background-color: #f6f6f6;
+}

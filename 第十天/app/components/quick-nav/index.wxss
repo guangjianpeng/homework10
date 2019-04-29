@@ -1,0 +1,24 @@
+.quick-nav{
+  padding: 36rpx 0 14rpx;
+  background-color: #fff;
+}
+.quick-nav::after{
+  content: "";
+  display:block;
+  clear: both;
+}
+.quick-nav-item{
+   float: left;
+   width: 20%;
+   text-align: center;
+}
+.quick-nav-item image{
+  width: 90rpx;
+  height: 90rpx;
+}
+.quick-nav-item .title{
+    font-size: 28rpx;
+    color: #404040;
+    height: 64rpx;
+    line-height: 64rpx;
+}

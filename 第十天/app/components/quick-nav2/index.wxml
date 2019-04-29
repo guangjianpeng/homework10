@@ -1,0 +1,65 @@
+<view class="quick-nav2">
+ <ul>
+ <li>
+ <image src= '/images/quickNav/01.jpg'></image>
+ <view class='sp1'>商务应用</view>
+ <view class='sp2'>人数：999</view>
+ <view class='sp3'>价格：888.00</view>
+ </li>
+
+ 
+ <li>
+ <image  src='/images/quickNav/02.jpg'></image>
+<view class='sp1'>就业指导课</view>
+ <view class='sp2'>人数：999</view>
+ <view class='sp3'>价格：888.00</view>
+ </li>
+
+  <li>
+ <image  src='/images/quickNav/03.jpg'></image>
+<view class='sp1'>就业指导课</view>
+ <view class='sp2'>人数：999</view>
+ <view class='sp3'>价格：888.00</view>
+ </li>
+
+  <li>
+ <image  src='/images/quickNav/04.jpg'></image>
+<view class='sp1'>就业指导课</view>
+ <view class='sp2'>人数：999</view>
+ <view class='sp3'>价格：888.00</view>
+ </li>
+
+  <li>
+ <image  src='/images/quickNav/05.jpg'></image>
+<view class='sp1'>就业指导课</view>
+ <view class='sp2'>人数：999</view>
+ <view class='sp3'>价格：888.00</view>
+ </li>
+
+  <li>
+ <image  src='/images/quickNav/06.jpg'></image>
+<view class='sp1'>就业指导课</view>
+ <view class='sp2'>人数：999</view>
+ <view class='sp3'>价格：888.00</view>
+ </li>
+
+  <li>
+ <image  src='/images/quickNav/07.jpg'></image>
+<view class='sp1'>就业指导课</view>
+ <view class='sp2'>人数：999</view>
+ <view class='sp3'>价格：888.00</view>
+ </li>
+
+  <li>
+ <image  src='/images/quickNav/08.jpg'></image>
+<view class='sp1'>就业指导课</view>
+ <view class='sp2'>人数：999</view>
+ <view class='sp3'>价格：888.00</view>
+ </li>
+
+
+
+ 
+
+ </ul>
+</view>

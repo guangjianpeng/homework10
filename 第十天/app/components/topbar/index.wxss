@@ -1,0 +1,21 @@
+.top-bar {
+  height: 88rpx;
+  line-height: 88rpx;
+  background-color: #00b7ef;
+  color: #fff;
+  font-size: 36rpx;
+  text-align: center;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+}
+.top-bar .login,.top-bar .back{
+  width: 100rpx;
+  font-size: 32rpx;
+}
+.top-bar .title{
+  flex: 1;
+}

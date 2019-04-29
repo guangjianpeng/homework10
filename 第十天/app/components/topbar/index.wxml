@@ -1,0 +1,10 @@
+<!--components/topbar/index.wxml-->
+<view class='top-bar'>
+    <view class='back'></view>
+    <view class='title'>
+         <slot></slot>
+    </view>
+    <view class='login'>登录</view>
+</view>
+
+<view style="height: 88rpx;"></view>

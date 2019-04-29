@@ -1,0 +1,29 @@
+<!-- 顶部 -->
+<top-bar>个人中心</top-bar>
+<swiper
+  indicator-dots="{{true}}"
+  autoplay="{{true}}"
+  interval="{{3000}}"
+  duration="{{500}}"
+  circular="{{true}}"
+>
+  <block wx:for="{{imgUrls}}"  wx:key="{{index}}" >
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355" height="150" />
+    </swiper-item>
+  </block>
+</swiper>
+
+<quick-nav  items="{{quickNav}}" />
+<quick-nav2  items2="{{quickNav2}}" />
+
+<view style='height:1000px'></view>
+
+<!-- 
+http://www.feifanedu.org//wap
+ -->
+
+
+<!-- 底部 -->
+<import src="/templates/footer.wxml" />
+<template is="footer"  />

@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+     "top-bar":"/components/topbar/index",
+     "quick-nav":"/components/quick-nav/index",
+     "quick-nav2": "/components/quick-nav2/index"
+  }
+}
